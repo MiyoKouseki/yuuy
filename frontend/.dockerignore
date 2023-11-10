@@ -1,0 +1,45 @@
+# 依存関係のディレクトリ
+node_modules/
+bower_components/
+
+# ビルド生成物
+build/
+dist/
+.cache/
+
+# ローカル開発ファイル
+.env.local
+.env.development.local
+.env.test.local
+
+# バージョン管理
+.git/
+.gitignore
+.svn/
+
+# ログファイル
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# 設定ファイル
+.dockerignore
+Dockerfile
+*.md
+
+# エディタの設定
+.vscode/
+.idea/
+
+# テストファイル
+__tests__/
+*.spec.js
+*.test.js
+coverage/
+
+# 一時ファイル
+.DS_Store
+Thumbs.db
+
+# 環境設定ファイル
+.env
